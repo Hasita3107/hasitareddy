@@ -1,0 +1,14 @@
+package sam;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class abcTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

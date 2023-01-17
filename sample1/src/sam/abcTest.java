@@ -1,0 +1,19 @@
+package sam;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+
+class abcTest {
+
+
+	void testcalcualate() {
+		abc si = new abc();
+		float expected = 480;
+		float actual = si.calcualate(4000, 4, 3);
+		Assertions.assertEquals(expected, actual);
+		
+	}
+
+}
